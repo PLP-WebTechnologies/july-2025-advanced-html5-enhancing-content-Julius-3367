@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>PLP Student Project</title>
+  </head>
+  <body>
+    <h1>My Learning in PLP</h1>
+
+    <!-- my first list -->
+    <h2>Topics I have learned</h2>
+    <ul>
+      <li>HTML basics</li>
+      <li>CSS basics</li>
+      <li>Forms in HTML</li>
+    </ul>
+
+    <!-- my first table -->
+    <h2>Study Plan</h2>
+    <table border="1">
+      <tr>
+        <th>Day</th>
+        <th>Topic</th>
+      </tr>
+      <tr>
+        <td>Monday</td>
+        <td>HTML</td>
+      </tr>
+      <tr>
+        <td>Tuesday</td>
+        <td>CSS</td>
+      </tr>
+      <tr>
+        <td>Wednesday</td>
+        <td>Forms</td>
+      </tr>
+    </table>
+
+    <!-- image -->
+    <h2>My Image</h2>
+    <img src="payment.jpg" alt="my payment image" width="300" />
+
+    <!-- form section -->
+    <h2>Feedback Form</h2>
+    <form>
+      <label for="name">Name:</label><br />
+      <input type="text" id="name" name="name" required /><br /><br />
+
+      <label for="email">Email:</label><br />
+      <input type="email" id="email" name="email" required /><br /><br />
+
+      <label for="fav">Favourite topic:</label><br />
+      <select id="fav" name="fav" required>
+        <option value="">--choose one--</option>
+        <option value="html">HTML</option>
+        <option value="css">CSS</option>
+        <option value="forms">Forms</option></select
+      ><br /><br />
+
+      <label for="comments">Comments:</label><br />
+      <textarea id="comments" name="comments"></textarea><br /><br />
+
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
